@@ -35,8 +35,8 @@ except ImportError:
     configfile = MockConfigfile()
 
 # Constants
-LICENSE_SERVER = "http://your-deployed-server-url.com" # Replace with your production Cloud Run / Railway / Render URL
-SECRET_SALT = "EPG_ARABIC_SECRET_2026"
+LICENSE_SERVER = "https://epg-pro-licensing-production.up.railway.app"
+SECRET_SALT = "EPG_ARABIC_SECRET_2026_XYZ_9876543213333454"
 CACHE_PATH = "/etc/enigma2/arabic_epg.lic"
 
 # Hardware ID Generator (Receiver Binding)
