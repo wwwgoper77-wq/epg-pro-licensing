@@ -65,4 +65,4 @@ This automatically compiles, obfuscates, and packages the client into a single r
 - [RELEASE_CHECKLIST.md](./RELEASE_CHECKLIST.md): Read this before going live. It details each step from initial launch to first client activation.
 - [ADMIN_GUIDE.md](./ADMIN_GUIDE.md): Admin panel guidelines explaining how to generate, revoke, or unbind customer keys.
 - [DEPLOYMENT.md](./DEPLOYMENT.md): Detailed hosting integration steps for Railway, Render, and Google Cloud Run.
-- [API.md](./API.md): Technical references on license endpoints, parameters, and cryptographic signatures.
+- [API.md](./API.md): Technical references on license endpoints, parameters, and cryptographic signatures..
