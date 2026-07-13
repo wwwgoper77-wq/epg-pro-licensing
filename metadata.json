@@ -1,0 +1,6 @@
+{
+  "name": "EPG-PRO Licensing Server",
+  "description": "A high-performance license key generation, client validation, and real-time activation logs console for EPG-PRO integrations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
