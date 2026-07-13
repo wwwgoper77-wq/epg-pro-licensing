@@ -1,0 +1,75 @@
+{
+  "licenses": [
+    {
+      "key": "EPG-PRO-LIFETIME",
+      "type": "lifetime",
+      "hwid": "MYHWID",
+      "status": "Active",
+      "created_at": "2026-07-13T00:56:00Z",
+      "activated_at": "2026-07-13T09:02:05.763Z",
+      "expires_at": "lifetime",
+      "last_checked": "2026-07-13T09:02:05.763Z",
+      "notes": "Premium Lifetime Test Key"
+    },
+    {
+      "key": "EPG-DEMO-30DAYS",
+      "type": "30days",
+      "hwid": "MY_RECEIVER_HWID",
+      "status": "Active",
+      "created_at": "2026-07-13T00:56:00Z",
+      "activated_at": "2026-07-13T10:13:24.129Z",
+      "expires_at": "2026-08-12T10:13:24.129Z",
+      "last_checked": "2026-07-13T10:13:24.129Z",
+      "notes": "30-Day Demo Test Key"
+    },
+    {
+      "key": "EPG-TRIAL-7DAYS",
+      "type": "7days",
+      "hwid": null,
+      "status": "Inactive",
+      "created_at": "2026-07-13T00:56:00Z",
+      "activated_at": null,
+      "expires_at": null,
+      "last_checked": null,
+      "notes": "7-Day Trial Test Key"
+    }
+  ],
+  "activation_logs": [
+    {
+      "id": "a28dfe05-0de5-4e25-b25d-994d63a7b8b6",
+      "key": "EPG-DEMO-30DAYS",
+      "hwid": "MY_RECEIVER_HWID",
+      "image": "OPENATV (VU_UNO_4K_SE)",
+      "action": "activate_success",
+      "timestamp": "2026-07-13T10:13:24.129Z",
+      "ip": "127.0.0.1"
+    },
+    {
+      "id": "40062899-bfcc-4634-94e2-22dee9d25e57",
+      "key": "EPG-PRO-LIFETIME",
+      "hwid": "MYHWID",
+      "image": "Unknown Image (Unknown Receiver)",
+      "action": "activate_success",
+      "timestamp": "2026-07-13T09:02:05.763Z",
+      "ip": "127.0.0.1"
+    },
+    {
+      "id": "8b1c7600-b5fb-4ef6-968a-c75ffe45bff9",
+      "key": "TEST",
+      "hwid": "TEST",
+      "image": "Unknown Image (Unknown Receiver)",
+      "action": "failed_invalid_key",
+      "timestamp": "2026-07-13T09:02:02.824Z",
+      "ip": "127.0.0.1"
+    },
+    {
+      "id": "63a09d68-d9f7-4915-ae7e-e67b44c36830",
+      "key": "TEST",
+      "hwid": "TEST",
+      "image": "Unknown Image (Unknown Receiver)",
+      "action": "failed_invalid_key",
+      "timestamp": "2026-07-13T08:54:41.839Z",
+      "ip": "127.0.0.1"
+    }
+  ]
+}
