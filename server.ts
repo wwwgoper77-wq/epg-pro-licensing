@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json({ limit: '1mb' }));
 app.use(express.urlencoded({ extended: true }));
 
-const SIGNATURE_SECRET = process.env.SIGNATURE_SECRET || 'EPG_PRO_SECURE_SALT_9933';
+const SIGNATURE_SECRET = process.env.SIGNATURE_SECRET || 'EPG_ARABIC_SECRET_2026_XYZ_9876543213333454';
 
 if (process.env.NODE_ENV === 'production' && SIGNATURE_SECRET === 'EPG_PRO_SECURE_SALT_9933') {
   console.warn('⚠️ WARNING: Using default insecure SIGNATURE_SECRET. Please configure a custom secret in production.');
