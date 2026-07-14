@@ -8,6 +8,7 @@ dotenv.config();
 
 const app = express();
 app.use(express.json({ limit: '1mb' }));
+app.use(express.urlencoded({ extended: true }));
 
 const SIGNATURE_SECRET = process.env.SIGNATURE_SECRET || 'EPG_PRO_SECURE_SALT_9933';
 
