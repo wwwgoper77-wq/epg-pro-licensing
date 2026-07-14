@@ -1,0 +1,6 @@
+{
+  "name": "Arabic EPG Translator Pro Licensing Panel",
+  "description": "Commercial licensing server and control panel dashboard for the Arabic EPG Translator Pro Enigma2 plugin.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
