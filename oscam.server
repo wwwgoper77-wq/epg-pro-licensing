@@ -1,4 +1,9 @@
-
 [reader]
-
-
+label                        = tigerhd4kTest
+enable                       = 1
+protocol                     = cccam
+device                       = tigerhd4k.com,37000
+user                         = 1day985
+password                     = 2021
+cccversion                   = 2.1.2
+group                        = 1
