@@ -1,9 +1,18 @@
+
 [reader]
-label                        = dhoomTest
-enable                       = 1
-protocol                     = cccam
-device                       = dhoom.org,31000
-user                         = 1daygq0
-password                     = 2021
-cccversion                   = 2.1.2
-group                        = 1
+label = dhoomTest
+enable = 1
+protocol= cccam
+device = dhoom.org,31000
+user = 1daygq0
+password = 2021
+cccversion=2.1.2
+group=1
+cacheex_block_fakecws=1
+disablecrccws = 1
+inactivitytimeout=1
+reconnecttimeout=30
+lb_weight=100
+cccmaxhops=10
+ccckeepalive=1
+
