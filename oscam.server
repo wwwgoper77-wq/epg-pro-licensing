@@ -3,81 +3,13 @@ label                        = tigerhd4kTest
 enable                       = 1
 protocol                     = cccam
 device                       = tigerhd4k.com,37000
-user                         = 1dayzg6
+user                         = 1dayl2k
 password                     = 2021
 cccversion                   = 2.1.2
 group                        = 1
 cacheex_block_fakecws        = 1
 disablecrccws                = 1
 inactivitytimeout            = 1
-reconnecttimeout             = 30
-lb_weight                    = 100
-cccmaxhops                   = 10
-ccckeepalive                 = 1
-
-[reader]
-label                        = tigerhd4kTest
-enable                       = 1
-protocol                     = cccam
-device                       = tigerhd4k.com,37000
-user                         = 1dayjcd
-password                     = 2021
-cccversion                   = 2.1.2
-group                        = 1
-cacheex_block_fakecws        = 1
-disablecrccws                = 1
-inactivitytimeout            = 1
-
-[reader]
-label                        = tigerhd4kTest
-enable                       = 1
-protocol                     = cccam
-device                       = tigerhd4k.com,37000
-user                         = 1day3eq
-password                     = 2021
-cccversion                   = 2.1.2
-group                        = 1
-cacheex_block_fakecws        = 1
-disablecrccws                = 1
-inactivitytimeout            = 1
-reconnecttimeout             = 30
-lb_weight                    = 100
-cccmaxhops                   = 10
-ccckeepalive                 = 1
-
-[reader]
-label                        = tigerhd4kTest
-enable                       = 1
-protocol                     = cccam
-device                       = tigerhd4k.com,37000
-user                         = 1dayam1
-password                     = 2021
-cccversion                   = 2.1.2
-group                        = 1
-cacheex_block_fakecws        = 1
-disablecrccws                = 1
-inactivitytimeout            = 1
-reconnecttimeout             = 30
-lb_weight                    = 100
-cccmaxhops                   = 10
-ccckeepalive                 = 1
-
-[reader]
-label                        = tigerhd4kTest
-enable                       = 1
-protocol                     = cccam
-device                       = tigerhd4k.com,37000
-user                         = 1day95t
-password                     = 2021
-cccversion                   = 2.1.2
-group                        = 1
-cacheex_block_fakecws        = 1
-disablecrccws                = 1
-inactivitytimeout            = 1
-reconnecttimeout             = 30
-lb_weight                    = 100
-cccmaxhops                   = 10
-ccckeepalive                 = 1
 reconnecttimeout             = 30
 lb_weight                    = 100
 cccmaxhops                   = 10
