@@ -1,8 +1,1 @@
-[reader]
-label      = tigerhd4kTest
-enable     = 1
-protocol   = cccam
-device     = tigerhd4k.com,37000
-user       = 1daycy2
-password   = 2021
-group      = 1
+
